@@ -60,7 +60,7 @@ python run.py
 Routes:
 
 Availiable Routes():
-Route     Method    Desc
+Route, Method, Desc
 (/)	     GET   Home route
 (/health)  GET  Health check
 (/status)  GET	 App status

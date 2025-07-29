@@ -1,14 +1,14 @@
 # Flask Baseline App
 
-A minimal Flask application with basic routes and environment configuration. Designed for simple Flask-based APIs or web apps with scalable structure.
+A minimal Flask application with simplicity and scalabitily in mind. Best suited for APIs or small we apps with room to grow into production-level services.
 
 # Features
 
-- Basic Flask app factory pattern
-- Blueprint structure
-- Environment variable support with `.env`
-- Health and status check endpoints
-- Easy to deploy and extend
+- Basic Flask app factory pattern  -----for enviroment aware instatiation
+- Blueprint structure  -----to keep routes modual and organized 
+- Environment variable support with `.env` via 'python-dotenv'
+- integrated 'Health' and 'status' check endpoints
+- Easy to deploy, to extend, or dockerize
 
 ## Project Structure
 
@@ -20,13 +20,13 @@ flask_baseline_app/
 │ └── config.py # Config using environment variables
 │
 ├── venv/ # Virtual environment (should be in .gitignore)
-├── .env # Environment variables (should be in .gitignore)
+├── .env # Secret keys and enviroment config (not commited)
 ├── .gitignore
-├── run.py # Entry point to start the app
+├── run.py # app entry point
 ├── requirements.txt
 └── README.md
 
-## Setup Instructions
+## Setup Instructions:
 
 ### 1. Clone the repo
 
@@ -35,7 +35,7 @@ Bash-
 git clone https://github.com/YOUR_USERNAME/flask_baseline_app.git
 cd flask_baseline_app
 
-2. Create a virtual environment
+2. Create and activate virtual environment
    
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
@@ -59,15 +59,17 @@ python run.py
 
 Routes:
 
-Route	Method	Description
-/	GET	Home route
-/health	GET	Health check
-/status	GET	App status
-/about	GET	About this app
+Availiable Routes():
+Route     Method    Desc
+(/)	      GET   Home route
+(/health)	GET	Health check
+(/status)	GET	App status
+(/about)	   GET	About this app
 
-Up next:
--Formatting for AWS EC2
--Unit test
+Future intentions:
+Add units via pytest
+EC2 deoloyment config w/ Nginx + Gunicorn
+add Docker support
 
- License
+License:
 MIT — free to modify and use for any purpose.

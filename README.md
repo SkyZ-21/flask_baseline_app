@@ -64,7 +64,7 @@ Route     Method    Desc
 (/)	     GET   Home route
 (/health)  GET  Health check
 (/status)  GET	 App status
-(/about)	  GET About this app
+(/about)	 GET About this app
 
 Future intentions:
 Add units via pytest

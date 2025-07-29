@@ -35,7 +35,9 @@ Edit
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/flask_baseline_app.git
+git clone https://github.com/YOUR_USERNAME/flask_baseline_app.git
+cd flask_baseline_app
+
 cd flask_baseline_app
 
 2. Create a virtual environment
@@ -58,20 +60,21 @@ Create a .env file:
 ini
 Copy
 Edit
-SECRET_KEY=your_secret_key_here
+SECRET_KEY=your_secret_key_here -----critical for session management and CSRF protections
 5. Run the app
 bash
 Copy
 Edit
 python run.py
-🔗 Routes
+
+ Routes:
 Route	Method	Description
 /	GET	Home route
 /health	GET	Health check
 /status	GET	App status
 /about	GET	About this app
 
-Coming Soon
+Coming Soon:
 
 Unit tests
 CI/CD pipeline setup

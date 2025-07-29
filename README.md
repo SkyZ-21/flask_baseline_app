@@ -55,7 +55,7 @@ SECRET_KEY=your_secret_key_here -----critical for session management and CSRF pr
 
 5. Run the app
 
-python run.py
+python run.py   -----app will start on http://localhost:5000
 
 Routes:
 

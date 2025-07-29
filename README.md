@@ -6,7 +6,7 @@ A minimal Flask application with simplicity and scalabitily in mind. Best suited
 
 - Basic Flask app factory pattern  -----for enviroment aware instatiation
 - Blueprint structure  -----to keep routes modual and organized 
-- Environment variable support with `.env` via 'python-dotenv'
+- Environment variable support with '.env' via 'python-dotenv'
 - integrated 'Health' and 'status' check endpoints
 - Easy to deploy, to extend, or dockerize
 

@@ -71,5 +71,8 @@ Add units via pytest
 EC2 deoloyment config w/ Nginx + Gunicorn
 add Docker support
 
+Contributing:
+Please feel free to open an issues or pull requests!
+
 License:
 MIT — free to modify and use for any purpose.

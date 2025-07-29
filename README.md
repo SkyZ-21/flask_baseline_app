@@ -1,6 +1,6 @@
 # Flask Baseline App
 
-A minimal Flask application with basic routes and environment configuration. Designed for beginners and for building from a solid foundation.
+A minimal Flask application with basic routes and environment configuration. Designed for simple Flask-based APIs or web apps with scalable structure.
 
 # Features
 
@@ -26,59 +26,48 @@ flask_baseline_app/
 ├── requirements.txt
 └── README.md
 
-bash
-Copy
-Edit
-
 ## Setup Instructions
 
 ### 1. Clone the repo
 
-```bash
+Bash-
+
 git clone https://github.com/YOUR_USERNAME/flask_baseline_app.git
 cd flask_baseline_app
 
-cd flask_baseline_app
-
 2. Create a virtual environment
-bash
-Copy
-Edit
+   
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
-3. Install dependencies
-bash
-Copy
-Edit
+4. Install dependencies
+
 pip install -r requirements.txt
 
-4. Set environment variables
-Create a .env file:
+5. Set environment variables
 
+Create a .env file:
 ini
 Copy
 Edit
 SECRET_KEY=your_secret_key_here -----critical for session management and CSRF protections
+
 5. Run the app
-bash
-Copy
-Edit
+
 python run.py
 
- Routes:
+Routes:
+
 Route	Method	Description
 /	GET	Home route
 /health	GET	Health check
 /status	GET	App status
 /about	GET	About this app
 
-Coming Soon:
-
-Unit tests
-CI/CD pipeline setup
-Docker support
+Up next:
+-Formatting for AWS EC2
+-Unit test
 
  License
 MIT — free to modify and use for any purpose.
